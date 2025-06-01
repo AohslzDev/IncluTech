@@ -1,0 +1,227 @@
+/* Search Section */
+.search-section {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 32px;
+}
+
+.search-container {
+    max-width: 500px;
+    margin: 0 auto 24px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 12px 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(251, 146, 60, 0.3);
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+}
+
+.search-input::placeholder {
+    color: rgba(251, 146, 60, 0.7);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #fb923d;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Filter Tags */
+.filter-tags {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.filter-group label {
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.tag-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.filter-tag {
+    background: rgba(234, 88, 12, 0.2);
+    color: rgba(251, 146, 60, 0.9);
+    border: 1px solid rgba(251, 146, 60, 0.3);
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-tag:hover {
+    background: rgba(234, 88, 12, 0.4);
+    color: white;
+}
+
+.filter-tag.active {
+    background: #ea580c;
+    color: white;
+    border-color: #ea580c;
+}
+
+.search-results {
+    text-align: center;
+    color: rgba(251, 146, 60, 0.9);
+    margin-top: 16px;
+}
+
+/* Specialists Grid */
+.specialists-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+}
+
+.specialist-card {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(251, 146, 60, 0.2);
+}
+
+.specialist-card:hover {
+    background: rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
+}
+
+.specialist-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.specialist-avatar {
+    width: 80px;
+    height: 80px;
+    background: #ea580c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.specialist-name {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.specialist-specialty {
+    color: #fb923d;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.specialist-city {
+    color: rgba(251, 146, 60, 0.8);
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.specialist-stars {
+    color: #fbbf24;
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+}
+
+.specialist-experience {
+    color: rgba(251, 146, 60, 0.8);
+    font-size: 0.9rem;
+}
+
+.specialist-description {
+    color: rgba(251, 146, 60, 0.9);
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.certifications-section h4 {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+}
+
+.certifications-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.certification-tag {
+    background: rgba(234, 88, 12, 0.2);
+    color: rgba(251, 146, 60, 0.9);
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+}
+
+/* No Results */
+.no-results {
+    text-align: center;
+    padding: 48px 24px;
+}
+
+.no-results p {
+    color: white;
+    margin-bottom: 8px;
+}
+
+.no-results p:first-child {
+    font-size: 1.25rem;
+}
+
+.no-results p:last-child {
+    color: rgba(251, 146, 60, 0.8);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .specialists-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .search-container {
+        max-width: 100%;
+    }
+    
+    .filter-tags {
+        gap: 12px;
+    }
+    
+    .tag-group {
+        gap: 6px;
+    }
+    
+    .filter-tag {
+        font-size: 0.75rem;
+        padding: 4px 8px;
+    }
+}

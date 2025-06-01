@@ -1,0 +1,244 @@
+.plans-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 32px;
+    margin-bottom: 64px;
+}
+
+.plan-card {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 32px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.plan-card:not(.popular):hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.plan-card.popular {
+    border: 2px solid #fb923d;
+    transform: scale(1.05);
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.popular-badge {
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ea580c;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.plan-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.plan-price {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.plan-price .price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fb923d;
+}
+
+.plan-price .period {
+    color: rgba(251, 146, 60, 0.8);
+    margin-left: 4px;
+}
+
+.plan-description {
+    text-align: center;
+    color: rgba(251, 146, 60, 0.9);
+    margin-bottom: 32px;
+    font-size: 0.9rem;
+}
+
+.plan-features {
+    list-style: none;
+    margin-bottom: 32px;
+}
+
+.plan-features li {
+    color: rgba(251, 146, 60, 0.9);
+    padding: 8px 0;
+    position: relative;
+    padding-left: 24px;
+}
+
+.plan-features li::before {
+    content: "✓";
+    color: #fb923d;
+    position: absolute;
+    left: 0;
+    top: 8px;
+    font-weight: bold;
+}
+
+.plan-button {
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.plan-button:not(.popular) {
+    background: rgba(234, 88, 12, 0.2);
+    color: rgba(251, 146, 60, 0.9);
+    border: 1px solid #fb923d;
+}
+
+.plan-button:not(.popular):hover {
+    background: #ea580c;
+    color: white;
+}
+
+.plan-button.popular {
+    background: #ea580c;
+    color: white;
+}
+
+.plan-button.popular:hover {
+    background: #dc2626;
+}
+
+/* Additional Services */
+.additional-services {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 32px;
+    margin-bottom: 48px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.service-card {
+    background: rgba(234, 88, 12, 0.1);
+    border: 1px solid rgba(251, 146, 60, 0.2);
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.service-card h3 {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.service-price {
+    margin-bottom: 16px;
+}
+
+.service-price .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fb923d;
+}
+
+.service-price .period {
+    color: rgba(251, 146, 60, 0.8);
+    margin-left: 4px;
+}
+
+.service-card p {
+    color: rgba(251, 146, 60, 0.9);
+    font-size: 0.9rem;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+.service-button {
+    width: 100%;
+    padding: 8px 16px;
+    background: rgba(234, 88, 12, 0.2);
+    color: rgba(251, 146, 60, 0.9);
+    border: 1px solid #fb923d;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.service-button:hover {
+    background: #ea580c;
+    color: white;
+}
+
+/* Contact Section */
+.contact-section {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 32px;
+    text-align: center;
+}
+
+.contact-section h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.contact-section p {
+    color: rgba(251, 146, 60, 0.9);
+    margin-bottom: 24px;
+}
+
+.contact-button {
+    background: #ea580c;
+    color: white;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+    background: #dc2626;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .plans-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    
+    .plan-card.popular {
+        transform: none;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}

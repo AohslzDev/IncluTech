@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Especialistas - IncluTech</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="specialists.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">IT</div>
+                    <span class="logo-text">IncluTech</span>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="especialistas.html" class="nav-link active">Nossos Especialistas</a>
+                    <a href="plans.html" class="nav-link">Planos</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Hero Section -->
+            <section class="hero">
+                <h1 class="hero-title">Nossos Especialistas</h1>
+                <p class="hero-subtitle">Encontre o especialista ideal para suas necessidades</p>
+            </section>
+
+            <!-- Search and Filter Section -->
+            <section class="search-section">
+                <div class="search-container">
+                    <input 
+                        type="text" 
+                        id="searchInput"
+                        placeholder="Buscar especialistas..."
+                        class="search-input"
+                    >
+                </div>
+                
+                <div class="filter-tags">
+                    <div class="filter-group">
+                        <label>Função:</label>
+                        <div class="tag-group" id="functionTags">
+                            <button class="filter-tag active" data-filter="all" data-type="function">Todos</button>
+                            <button class="filter-tag" data-filter="acessibilidade-digital" data-type="function">Acessibilidade Digital</button>
+                            <button class="filter-tag" data-filter="inclusao-varejo" data-type="function">Inclusão no Varejo</button>
+                            <button class="filter-tag" data-filter="treinamento" data-type="function">Treinamento presencial</button>
+                            <!-- <button class="filter-tag" data-filter="arquitetura" data-type="function">Arquitetura</button> -->
+                            <button class="filter-tag" data-filter="comunicacao" data-type="function">Comunicação</button>
+                            <button class="filter-tag" data-filter="psicologo" data-type="function">Psicólogo</button>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label>Cidade:</label>
+                        <div class="tag-group" id="cityTags">
+                            <button class="filter-tag active" data-filter="all" data-type="city">Todas</button>
+                            <button class="filter-tag" data-filter="currais_novos" data-type="city">Currais Novos</button>
+                            <button class="filter-tag" data-filter="natal" data-type="city">Natal</button>
+                            <button class="filter-tag" data-filter="acari" data-type="city">Acari</button>
+                            <button class="filter-tag" data-filter="lagoa_nova" data-type="city">Lagoa Nova</button>
+                            <button class="filter-tag" data-filter="mossoro" data-type="city">Mossoró</button>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label>Avaliação:</label>
+                        <div class="tag-group" id="starTags">
+                            <button class="filter-tag active" data-filter="all" data-type="stars">Todas</button>
+                            <button class="filter-tag" data-filter="5" data-type="stars">★★★★★</button>
+                            <button class="filter-tag" data-filter="4" data-type="stars">★★★★☆</button>
+                            <button class="filter-tag" data-filter="3" data-type="stars">★★★☆☆</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="searchResults" class="search-results"></div>
+            </section>
+
+            <!-- Specialists Grid -->
+            <section id="specialistsGrid" class="specialists-grid">
+                <!-- Specialists will be loaded by JavaScript -->
+            </section>
+
+            <!-- No Results Message -->
+            <div id="noResults" class="no-results" style="display: none;">
+                <p>Nenhum especialista encontrado.</p>
+                <p>Tente filtros diferentes ou limpe a busca.</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="specialists.js"></script>
+</body>
+</html>
