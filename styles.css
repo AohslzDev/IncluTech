@@ -72,6 +72,11 @@ body {
     cursor: pointer;
 }
 
+.acessibility-icon:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+}
+
 .logo-icon-jpg{
     border-radius: 15rem;
 };
@@ -99,6 +104,8 @@ body {
 .nav-link.active {
     background: #A34000;
     color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    transition: 200ms;
 }
 
 /* Main Content */
