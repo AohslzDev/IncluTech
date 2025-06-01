@@ -20,9 +20,9 @@
 }
 
 .plan-card.popular {
-    border: 2px solid #324B82;
+    border: 2px solid #ea580c;
     transform: scale(1.05);
-    background: #17055a;
+    background: #324B82;
 }
 
 .popular-badge {

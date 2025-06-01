@@ -340,6 +340,12 @@ body {
     object-fit: cover; /* Faz a imagem preencher o espaço sem distorcer */
     object-position: center; /* Centraliza a imagem */
     display: block;
+    transition: 200ms;
+}
+
+.carousel-slide img:hover{
+    transform: scale(1.1);
+    transition: 200ms;
 }
 
 .carousel-text {
