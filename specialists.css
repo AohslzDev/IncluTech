@@ -1,6 +1,6 @@
 /* Search Section */
 .search-section {
-    background: #721f0188;
+    background: #09002b;
     backdrop-filter: blur(10px);
     border-radius: 12px;
     padding: 24px;
@@ -28,7 +28,7 @@
 
 .search-input:focus {
     outline: none;
-    border-color: #fb923d;
+    border-color: #09002b;
     background: rgba(255, 255, 255, 0.2);
 }
 
@@ -93,7 +93,7 @@
 }
 
 .specialist-card {
-    background: #721f0188;
+    background: #09002b;
     backdrop-filter: blur(10px);
     border-radius: 12px;
     padding: 24px;
@@ -102,7 +102,7 @@
 }
 
 .specialist-card:hover {
-    background: #09002b;
+    background: #721f0188;
     transform: translateY(-2px);
     cursor: pointer;
 }

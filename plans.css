@@ -22,7 +22,7 @@
 .plan-card.popular {
     border: 2px solid #fb923d;
     transform: scale(1.05);
-    background: #721f0188;
+    background: #17055a;
 }
 
 .popular-badge {
@@ -123,7 +123,7 @@
 
 /* Additional Services */
 .additional-services {
-    background: #721f0188;
+    background: #09002b;
     color: white;
     backdrop-filter: blur(10px);
     border-radius: 12px;
