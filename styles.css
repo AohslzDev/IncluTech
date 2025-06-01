@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@
 }
 
 body {
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Inter", sans-serif;
     line-height: 1.6;
     color: #ffffff;
     background: linear-gradient(135deg, #e1e1e4 0%, #cacbcf 100%);
@@ -98,7 +97,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    background: #A34000;
+    background: #e44a24;
     color: rgb(255, 255, 255);
     transform: scale(1.1);
     transition: 200ms;
@@ -140,7 +139,7 @@ body {
 
 /* Card Styles */
 .card {
-    background: #A34000;
+    background: #e44a24;
     backdrop-filter: blur(10px);
     border-radius: 15px;
     padding: 24px;
@@ -151,14 +150,13 @@ body {
 
 .card:hover {
     transform: translateY(-2px);
-    background-color: #09002b;
     transition: 200ms;
     cursor: text;
 }
 
 .card-large {
     grid-column: span 2;
-    background: #0E2632;
+    background: #245168;
 }
 
 .card-title {
