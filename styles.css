@@ -290,18 +290,25 @@ body {
     overflow: hidden;
     border-radius: 16px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 400px; /* Altura fixa do carrossel */
 }
 
 .carousel-slide {
     display: none;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .carousel-slide img {
     width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz a imagem preencher o espaço sem distorcer */
+    object-position: center; /* Centraliza a imagem */
     display: block;
-    height: 400px;
-    object-fit: cover;
 }
 
 .carousel-text {
@@ -312,6 +319,7 @@ body {
     padding: 16px 24px;
     border-radius: 12px;
     color: #fff;
+    max-width: 60%;
 }
 
 .carousel-text h3 {
@@ -356,13 +364,15 @@ body {
 }
 
 @media (max-width: 600px) {
+    .carousel-container {
+        height: 250px; /* Altura menor no mobile */
+    }
+
     .carousel-text h3 {
         font-size: 18px;
     }
+
     .carousel-text p {
         font-size: 14px;
-    }
-    .carousel-slide img {
-        height: 250px;
     }
 }
