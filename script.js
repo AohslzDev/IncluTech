@@ -40,6 +40,32 @@ document.addEventListener("mousemove", (e) => {
     const glowY = 40 + y * 40;
 
     background.style.background = `
-    radial-gradient(circle at ${glowX}% ${glowY}%, #c13700, transparent 90%)
+    radial-gradient(circle at ${glowX}% ${glowY}%,rgb(201, 201, 201), transparent 90%)
     `;
 });
+
+const slides = document.querySelectorAll('.carousel-slide');
+const next = document.querySelector('.next');
+const prev = document.querySelector('.prev');
+
+let current = 0;
+
+function showSlide(index) {
+    slides.forEach(slide => slide.classList.remove('active'));
+    slides[index].classList.add('active');
+}
+
+next.addEventListener('click', () => {
+    current = (current + 1) % slides.length;
+    showSlide(current);
+});
+
+prev.addEventListener('click', () => {
+    current = (current - 1 + slides.length) % slides.length;
+    showSlide(current);
+});
+
+// (Opcional) Auto slide
+// setInterval(() => {
+//     next.click();
+// }, 5000);

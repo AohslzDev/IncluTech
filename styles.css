@@ -10,7 +10,7 @@ body {
     font-family: "JetBrains Mono", monospace;
     line-height: 1.6;
     color: #333;
-    background: linear-gradient(135deg, #320c01 0%, #872607 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #f1f1f1 100%);
     min-height: 100vh;
 }
 
@@ -23,7 +23,7 @@ body {
 /* Header Styles */
 
 .header {
-    background: #000000b0;
+    background: #721f0188;
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(251, 146, 60, 0.3);
     position: sticky;
@@ -55,11 +55,11 @@ body {
     justify-content: center;
     font-weight: bold;
     font-size: 18px;
-    color: #ea580c;
+    color: #1b1b1b;
 }
 
 .logo-text {
-    color: white;
+    color: rgb(39, 39, 39);
     font-size: 20px;
     font-weight: bold;
 }
@@ -80,7 +80,7 @@ body {
 .nav-link:hover,
 .nav-link.active {
     background: #ea580c;
-    color: white;
+    color: rgb(39, 39, 39);
 }
 
 /* Main Content */
@@ -97,7 +97,7 @@ body {
 .hero-title {
     font-size: 3rem;
     font-weight: bold;
-    color: white;
+    color: rgb(27, 0, 126);
     margin-bottom: 16px;
 }
 
@@ -119,7 +119,7 @@ body {
 
 /* Card Styles */
 .card {
-    background: rgba(0, 0, 0, 0.3);
+    background: #721f0188;
     backdrop-filter: blur(10px);
     border-radius: 15px;
     padding: 24px;
@@ -139,7 +139,7 @@ body {
 .card-title {
     font-size: 1.5rem;
     font-weight: bold;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-bottom: 16px;
 }
 
@@ -167,7 +167,7 @@ body {
     display: block;
     font-size: 1.5rem;
     font-weight: bold;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .stat-text {
@@ -187,7 +187,7 @@ body {
     display: block;
     font-size: 1.8rem;
     font-weight: bold;
-    color: white;
+    color: rgb(39, 39, 39);
     margin-bottom: 8px;
 }
 
@@ -277,5 +277,92 @@ body {
 
     .solution-items {
         grid-template-columns: 1fr;
+    }
+}
+/* Carousel Styles */
+.carousel {
+    margin: 40px 0;
+    position: relative;
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-slide {
+    display: none;
+    position: relative;
+}
+
+.carousel-slide img {
+    width: 100%;
+    display: block;
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-text {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 16px 24px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.carousel-text h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.carousel-text p {
+    margin: 4px 0 0;
+    font-size: 16px;
+}
+
+.carousel-slide.active {
+    display: block;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 12px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    user-select: none;
+    transition: background-color 0.3s;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.prev {
+    left: 16px;
+}
+
+.next {
+    right: 16px;
+}
+
+@media (max-width: 600px) {
+    .carousel-text h3 {
+        font-size: 18px;
+    }
+    .carousel-text p {
+        font-size: 14px;
+    }
+    .carousel-slide img {
+        height: 250px;
     }
 }
