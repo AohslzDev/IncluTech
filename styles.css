@@ -22,9 +22,9 @@ body {
 /* Header Styles */
 
 .header {
-    background: #13455ed3;
+    background: #bdbdbd;
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(251, 146, 60, 0.3);
+    border-bottom: 1px solid #000000;
     position: sticky;
     border-radius: 0rem 0rem 1rem 1rem;
     top: 0;
@@ -62,7 +62,7 @@ body {
     right: 30rem;
     width: 50px;
     height: 50px;
-    background: #c25f1d;
+    background: #bdbdbd;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -77,7 +77,7 @@ body {
 };
 
 .logo-text {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-size: 20px;
     font-weight: bold;
 }
@@ -97,8 +97,8 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    background: #e44a24;
-    color: rgb(255, 255, 255);
+    background: #818181;
+    color: #ffffff;
     transform: scale(1.1);
     transition: 200ms;
 }
@@ -117,13 +117,13 @@ body {
 .hero-title {
     font-size: 3rem;
     font-weight: bold;
-    color: #1b007e;
+    color: #1b1b1b;
     margin-bottom: 16px;
 }
 
 .hero-subtitle {
     font-size: .9rem;
-    color: #1b007e;
+    color: #1b1b1b;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -139,11 +139,11 @@ body {
 
 /* Card Styles */
 .card {
-    background: #e44a24;
+    background: #bdbdbd;
     backdrop-filter: blur(10px);
     border-radius: 15px;
     padding: 24px;
-    border: 1px solid rgba(251, 146, 60, 0.2);
+    border: 1px solid #000000;
     cursor: default;
     transition: transform 0.3s ease;
 }
@@ -156,18 +156,18 @@ body {
 
 .card-large {
     grid-column: span 2;
-    background: #245168;
+    background: #bdbdbd;
 }
 
 .card-title {
     font-size: 1.5rem;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     margin-bottom: 16px;
 }
 
 .card-text {
-    color: rgba(255, 255, 255, 0.9);
+    color: #ffffffe6;
     line-height: 1.6;
     font-size: 1.3rem;
 }
@@ -183,7 +183,7 @@ body {
 .stat-item {
     text-align: center;
     padding: 16px;
-    background: #13455E;
+    background: #bdbdbd;
     border-radius: 8px;
 }
 
@@ -191,19 +191,19 @@ body {
     display: block;
     font-size: 1.5rem;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 }
 
 .stat-text {
     font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.8);
+    color: #ffffffcc;
 }
 
 /* Data Point */
 .data-point {
     text-align: center;
     padding: 20px;
-    background: #822C14;
+    background: #bdbdbd;
     border-radius: 15px;
 }
 
@@ -211,12 +211,12 @@ body {
     display: block;
     font-size: 1.8rem;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     margin-bottom: 8px;
 }
 
 .data-text {
-    color: rgba(255, 255, 255, 0.8);
+    color: #ffffffcc;
 }
 
 /* Solution Items */
@@ -227,7 +227,7 @@ body {
 }
 
 .solution-item {
-    background: #13455E;
+    background: #bdbdbd;
     padding: 12px;
     border-radius: 6px;
     color: rgba(255, 255, 255, 0.9);
@@ -241,7 +241,7 @@ body {
 }
 
 .target-list li {
-    color: rgba(255, 255, 255, 0.9);
+    color: #ffffffe6;
     margin-bottom: 8px;
     padding-left: 16px;
     position: relative;
@@ -249,7 +249,7 @@ body {
 
 .target-list li:before {
     content: "•";
-    color: #fb923d;
+    color: #1b1b1b;
     position: absolute;
     left: 0;
 }
@@ -262,7 +262,7 @@ body {
 }
 
 .impact-item {
-    color: rgba(255, 255, 255, 0.9);
+    color: #ffffffe6;
     font-size: 0.9rem;
 }
 
@@ -350,7 +350,7 @@ body {
     position: absolute;
     bottom: 30px;
     left: 30px;
-    background-color: #a34100c0;
+    background-color: #bdbdbd;
     padding: 16px 24px;
     border-radius: 12px;
     color: #fff;
@@ -390,7 +390,7 @@ body {
 
 .prev:hover,
 .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #000000cc;
 }
 
 .prev {
