@@ -16,8 +16,9 @@
 }
 
 .plan-card:not(.popular):hover {
-    background: #0093B4;
-    transform: scale(1.1);
+    border: 2px solid #ea580c;
+    background: #324B82;
+    transform: scale(1.05);
     transition: 200ms;
 }
 
