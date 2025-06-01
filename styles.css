@@ -70,7 +70,7 @@ body {
 }
 
 .nav-link {
-    color: #c13700;
+    color: #ffffff;
     text-decoration: none;
     padding: 8px 16px;
     border-radius: 6px;
@@ -97,13 +97,13 @@ body {
 .hero-title {
     font-size: 3rem;
     font-weight: bold;
-    color: rgb(27, 0, 126);
+    color: #1b007e;
     margin-bottom: 16px;
 }
 
 .hero-subtitle {
     font-size: .9rem;
-    color: rgba(251, 146, 60, 0.9);
+    color: #1b007e;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -144,7 +144,7 @@ body {
 }
 
 .card-text {
-    color: rgba(251, 146, 60, 0.9);
+    color: rgba(255, 255, 255, 0.9);
     line-height: 1.6;
 }
 
@@ -172,7 +172,7 @@ body {
 
 .stat-text {
     font-size: 0.9rem;
-    color: rgba(251, 146, 60, 0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 /* Data Point */
@@ -187,7 +187,7 @@ body {
     display: block;
     font-size: 1.8rem;
     font-weight: bold;
-    color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
     margin-bottom: 8px;
 }
 
@@ -206,7 +206,7 @@ body {
     background: rgba(234, 88, 12, 0.2);
     padding: 12px;
     border-radius: 6px;
-    color: rgba(251, 146, 60, 0.9);
+    color: rgba(255, 255, 255, 0.9);
     font-size: 0.9rem;
 }
 
