@@ -40,7 +40,7 @@ document.addEventListener("mousemove", (e) => {
     const glowY = 40 + y * 40;
 
     background.style.background = `
-    radial-gradient(circle at ${glowX}% ${glowY}%,rgb(201, 201, 201), transparent 90%)
+    radial-gradient(circle at ${glowX}% ${glowY}%,rgb(255, 255, 255), transparent 90%)
     `;
 });
 
