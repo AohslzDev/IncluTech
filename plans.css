@@ -6,7 +6,8 @@
 }
 
 .plan-card {
-    background: #0E2632;
+    background: #501CAB;
+    background: linear-gradient(90deg,rgba(80, 28, 171, 1) 0%, rgba(7, 120, 137, 1) 100%);
     backdrop-filter: blur(10px);
     border-radius: 12px;
     padding: 32px;
@@ -17,7 +18,8 @@
 
 .plan-card:not(.popular):hover {
     border: 2px solid #ea580c;
-    background: #324B82;
+    background: #501CAB;
+    background: linear-gradient(90deg,rgba(80, 28, 171, 1) 0%, rgb(5, 39, 110) 100%);
     transform: scale(1.05);
     transition: 200ms;
 }
@@ -25,7 +27,8 @@
 .plan-card.popular {
     border: 2px solid #ea580c;
     transform: scale(1.05);
-    background: #324B82;
+    background: #501CAB;
+    background: linear-gradient(90deg,rgba(80, 28, 171, 1) 0%, rgb(9, 60, 136) 100%);
 }
 
 .popular-badge {
@@ -126,7 +129,8 @@
 
 /* Additional Services */
 .additional-services {
-    background: #0E2632;
+    background: #501CAB;
+    background: linear-gradient(90deg,rgba(80, 28, 171, 1) 0%, rgba(7, 120, 137, 1) 100%);
     color: white;
     backdrop-filter: blur(10px);
     border-radius: 12px;

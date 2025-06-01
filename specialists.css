@@ -1,6 +1,7 @@
 /* Search Section */
 .search-section {
-    background: #bdbdbd;
+    background: #501CAB;
+    background: linear-gradient(90deg,rgba(80, 28, 171, 1) 0%, rgba(7, 120, 137, 1) 100%);
     backdrop-filter: blur(10px);
     border-radius: 12px;
     padding: 24px;
@@ -15,8 +16,8 @@
 .search-input {
     width: 100%;
     padding: 12px 16px;
-    background: #bdbdbd;
-    border: 1px solid #000000;
+    background: #119BB1;
+    border: 1px solid #501CAB;
     border-radius: 8px;
     color: white;
     font-size: 16px;
@@ -28,7 +29,7 @@
 
 .search-input:focus {
     outline: none;
-    border-color: #000000;
+    border-color: #c07014;
     background: #ffffff33;
 }
 
@@ -58,9 +59,10 @@
 }
 
 .filter-tag {
-    background: #bdbdbd;
+    background: #501CAB;
+    background: linear-gradient(90deg,rgba(80, 28, 171, 1) 0%, rgb(14, 87, 170) 100%);
     color: #ffffffe6;
-    border: 1px solid #0000004d;
+    border: 1px solid #501CAB;
     padding: 6px 12px;
     border-radius: 16px;
     font-size: 0.8rem;
@@ -69,14 +71,15 @@
 }
 
 .filter-tag:hover {
-    background: #bdbdbd;
+    background: #c25710;
     color: white;
 }
 
 .filter-tag.active {
-    background: #bdbdbd;
+    background: #501CAB;
+    background: linear-gradient(90deg,rgb(60, 17, 136) 0%, rgb(3, 58, 109) 100%);
     color: white;
-    border-color: #000000;
+    border-color: c07014;
 }
 
 .search-results {
@@ -93,16 +96,18 @@
 }
 
 .specialist-card {
-    background: #bdbdbd;
+    background: #501CAB;
+    background: linear-gradient(90deg,rgba(80, 28, 171, 1) 0%, rgb(7, 74, 137) 100%);
     backdrop-filter: blur(10px);
     border-radius: 12px;
     padding: 24px;
     transition: all 0.3s ease;
-    border: 1px solid #000000;
+    border: 1px solid #c07014;
 }
 
 .specialist-card:hover {
-    background: #bdbdbd;
+    background: #501CAB;
+    background: linear-gradient(90deg,rgba(80, 28, 171, 1) 0%, rgba(7, 120, 137, 1) 100%);
     transform: translateY(-2px);
     cursor: pointer;
 }
@@ -152,12 +157,12 @@
 }
 
 .specialist-experience {
-    color: #bdbdbd;
+    color: #ffffff;
     font-size: 0.9rem;
 }
 
 .specialist-description {
-    color: #bdbdbd;
+    color: #ffffff;
     font-size: 0.9rem;
     margin-bottom: 20px;
     line-height: 1.5;
@@ -177,7 +182,7 @@
 }
 
 .certification-tag {
-    background: #bdbdbd;
+    background: #612cca;
     color: #bdbdbd;
     padding: 4px 8px;
     border-radius: 6px;
