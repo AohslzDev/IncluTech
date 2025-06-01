@@ -134,7 +134,7 @@ body {
 
 .card:hover {
     transform: translateY(-2px);
-    background-color: #1b1b1b;
+    background-color: #09002b;
     transition: 200ms;
     cursor: text;
 }
@@ -224,7 +224,7 @@ body {
 }
 
 .target-list li {
-    color: rgba(251, 146, 60, 0.9);
+    color: rgba(255, 255, 255, 0.9);
     margin-bottom: 8px;
     padding-left: 16px;
     position: relative;

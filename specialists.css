@@ -1,6 +1,6 @@
 /* Search Section */
 .search-section {
-    background: rgba(0, 0, 0, 0.3);
+    background: #721f0188;
     backdrop-filter: blur(10px);
     border-radius: 12px;
     padding: 24px;
@@ -15,7 +15,7 @@
 .search-input {
     width: 100%;
     padding: 12px 16px;
-    background: rgba(255, 255, 255, 0.1);
+    background: #721f0188;
     border: 1px solid rgba(251, 146, 60, 0.3);
     border-radius: 8px;
     color: white;
@@ -93,7 +93,7 @@
 }
 
 .specialist-card {
-    background: rgba(0, 0, 0, 0.3);
+    background: #721f0188;
     backdrop-filter: blur(10px);
     border-radius: 12px;
     padding: 24px;
@@ -102,8 +102,9 @@
 }
 
 .specialist-card:hover {
-    background: rgba(0, 0, 0, 0.4);
+    background: #09002b;
     transform: translateY(-2px);
+    cursor: pointer;
 }
 
 .specialist-header {
