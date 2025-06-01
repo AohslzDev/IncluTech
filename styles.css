@@ -80,7 +80,7 @@ body {
 .nav-link:hover,
 .nav-link.active {
     background: #ea580c;
-    color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
 }
 
 /* Main Content */
@@ -130,6 +130,9 @@ body {
 
 .card:hover {
     transform: translateY(-2px);
+    background-color: #1b1b1b;
+    transition: 200ms;
+    cursor: text;
 }
 
 .card-large {
@@ -180,7 +183,7 @@ body {
     text-align: center;
     padding: 20px;
     background: rgba(234, 88, 12, 0.2);
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .data-number {
@@ -192,7 +195,7 @@ body {
 }
 
 .data-text {
-    color: rgba(251, 146, 60, 0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 /* Solution Items */
@@ -238,7 +241,7 @@ body {
 }
 
 .impact-item {
-    color: rgba(251, 146, 60, 0.9);
+    color: rgba(255, 255, 255, 0.9);
     font-size: 0.9rem;
 }
 
@@ -315,7 +318,7 @@ body {
     position: absolute;
     bottom: 30px;
     left: 30px;
-    background-color: rgba(0,0,0,0.6);
+    background-color: #721f0188;
     padding: 16px 24px;
     border-radius: 12px;
     color: #fff;
@@ -342,7 +345,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     padding: 12px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: #721f0188;;
     color: white;
     border: none;
     border-radius: 50%;
