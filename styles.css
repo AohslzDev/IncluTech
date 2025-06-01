@@ -23,7 +23,7 @@ body {
 /* Header Styles */
 
 .header {
-    background: #721f0188;
+    background: #13455ed3;
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(251, 146, 60, 0.3);
     position: sticky;

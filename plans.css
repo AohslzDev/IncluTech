@@ -6,7 +6,7 @@
 }
 
 .plan-card {
-    background: #09002b;
+    background: #0E2632;
     backdrop-filter: blur(10px);
     border-radius: 12px;
     padding: 32px;
@@ -16,11 +16,11 @@
 }
 
 .plan-card:not(.popular):hover {
-    background: #17055a;
+    background: #0093B4;
 }
 
 .plan-card.popular {
-    border: 2px solid #fb923d;
+    border: 2px solid #324B82;
     transform: scale(1.05);
     background: #17055a;
 }
@@ -123,7 +123,7 @@
 
 /* Additional Services */
 .additional-services {
-    background: #09002b;
+    background: #0E2632;
     color: white;
     backdrop-filter: blur(10px);
     border-radius: 12px;
