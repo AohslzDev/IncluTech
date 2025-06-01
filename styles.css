@@ -83,7 +83,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    background: #ea580c;
+    background: #A34000;
     color: rgb(255, 255, 255);
 }
 
@@ -123,7 +123,7 @@ body {
 
 /* Card Styles */
 .card {
-    background: #0E2632;
+    background: #A34000;
     backdrop-filter: blur(10px);
     border-radius: 15px;
     padding: 24px;
@@ -141,6 +141,7 @@ body {
 
 .card-large {
     grid-column: span 2;
+    background: #0E2632;
 }
 
 .card-title {
@@ -187,7 +188,7 @@ body {
 .data-point {
     text-align: center;
     padding: 20px;
-    background: #13455E;
+    background: #822C14;
     border-radius: 15px;
 }
 
@@ -324,7 +325,7 @@ body {
     position: absolute;
     bottom: 30px;
     left: 30px;
-    background-color: #13455ed3;
+    background-color: #a34100c0;
     padding: 16px 24px;
     border-radius: 12px;
     color: #fff;
