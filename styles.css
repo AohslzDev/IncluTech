@@ -257,6 +257,7 @@ body {
         height: auto;
         padding: 16px 0;
         gap: 16px;
+        font-size: .7rem;
     }
 
     .nav {
