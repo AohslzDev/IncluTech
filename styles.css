@@ -58,6 +58,20 @@ body {
     color: #1b1b1b;
 }
 
+.acessibility-icon {
+    width: 50px;
+    height: 50px;
+    background: #c25f1d;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #3B6479;
+    cursor: pointer;
+}
+
 .logo-icon-jpg{
     border-radius: 15rem;
 };
