@@ -186,7 +186,8 @@ body {
 .stat-item {
     text-align: center;
     padding: 16px;
-    background: #119bb1;
+    background: #501CAB;
+    background: linear-gradient(90deg,rgb(49, 12, 112) 0%, rgb(7, 46, 117) 100%);
     border-radius: 8px;
 }
 
@@ -194,19 +195,20 @@ body {
     display: block;
     font-size: 1.5rem;
     font-weight: bold;
-    color: #ffffff;
+    color: #FB923D;
 }
 
 .stat-text {
     font-size: 0.9rem;
-    color: #ffffffcc;
+    color: #FB923D;
 }
 
 /* Data Point */
 .data-point {
     text-align: center;
     padding: 20px;
-    background: #119BB1;
+    background: #501CAB;
+    background: linear-gradient(90deg,rgb(49, 12, 112) 0%, rgb(7, 46, 117) 100%);
     border-radius: 15px;
 }
 
@@ -214,12 +216,12 @@ body {
     display: block;
     font-size: 1.8rem;
     font-weight: bold;
-    color: #ffffff;
+    color: #FB923D;
     margin-bottom: 8px;
 }
 
 .data-text {
-    color: #ffffffcc;
+    color: #FB923D;
 }
 
 /* Solution Items */
@@ -230,10 +232,11 @@ body {
 }
 
 .solution-item {
-    background: #119BB1;
+    background: #501CAB;
+    background: linear-gradient(90deg,rgb(49, 12, 112) 0%, rgb(7, 46, 117) 100%);
     padding: 12px;
     border-radius: 6px;
-    color: rgba(255, 255, 255, 0.9);
+    color: #FB923D;
     font-size: 0.9rem;
 }
 
